@@ -1,0 +1,14 @@
+go - exibe os comandos disponiveis e uma explicacao da funcao dele 
+$ go help get - mostra as flags dos comandos 
+$ go version - exibe a versao do go
+$ godoc -http=:6060 - habilita a documentacao do go offline 
+$ go env - mostra infos sobre as variaveis de hambiente do go, ex gopath, goroot 
+$ go doc cmd/vet - verifica a existencia de codigo "morto". reporta erros etc
+$ go vet comandos.go - - verifica a existencia de codigo "morto". reporta erros etc
+$ go build comandos.go - gera um bild do seu codigo
+$ ./comandos - executa o bild
+$ go run comandos.go - compila e executa o codigo
+
+# Windows
+$ dir ~/go/src/github.com 
+$ go get -u github.com/go-sql-driver/mysql
